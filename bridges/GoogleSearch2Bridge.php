@@ -7,10 +7,10 @@
 *    qdr:y : in past year
 *    sbd:1 : sort by date (will only work if qdr: is specified)
 */
-class GoogleSearchBridge extends BridgeAbstract {
+class GoogleSearch2Bridge extends BridgeAbstract {
 
 	const MAINTAINER = 'sebsauvage';
-	const NAME = 'Google search';
+	const NAME = 'Google search_everyday';
 	const URI = 'https://www.google.com/';
 	const CACHE_TIMEOUT = 1800; // 30min
 	const DESCRIPTION = 'Returns most recent results from Google search.';
@@ -50,7 +50,7 @@ class GoogleSearchBridge extends BridgeAbstract {
 			return self::URI
 				. 'search?q='
 				. urlencode($this->getInput('q'))
-				. '&num=100&complete=0&tbs=qdr:y,sbd:1';
+				. '&num=200&complete=0&tbs=qdr:d,sbd:1';
 		}
 
 		return parent::getURI();
