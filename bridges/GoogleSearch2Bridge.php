@@ -50,7 +50,7 @@ class GoogleSearch2Bridge extends BridgeAbstract {
 			return self::URI
 				. 'search?q='
 				. urlencode($this->getInput('q'))
-				. '&num=200&complete=0&tbs=qdr:d,sbd:1';
+				. '&num=200&complete=0&tbs=qdr:w,sbd:1';
 		}
 
 		return parent::getURI();
