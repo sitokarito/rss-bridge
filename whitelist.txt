@@ -8,7 +8,6 @@ Flickr
 GoogleSearch
 Identica
 Instagram
-OpenClassrooms
 Pinterest
 Scmb
 Twitter
@@ -51,3 +50,16 @@ Brut
 BingSearch
 Awwwards
 AppleAppStore
+ArtStation
+Xbooru
+Danbooru
+Webfail
+Tbib
+Safebooru
+Rule34paheal
+Rule34
+Lolibooru
+Konachan
+Etsy
+Gog
+Gelbooru
